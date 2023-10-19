@@ -8,7 +8,7 @@ class MainLvl extends Phaser.Scene
 
     create ()
     {
-        this.add.image(500, 300, 'фон').setScale(0.4,0.1);
+        this.add.image(500, 300, 'фон').setScale(0.4,0.2);
         platforms = this.physics.add.staticGroup();
     }
 
