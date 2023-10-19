@@ -8,7 +8,7 @@ class MainLvl extends Phaser.Scene
 
     create ()
     {
-        this.add.image(400, 300, 'фон').setScale(0.2);
+        this.add.image(500, 300, 'фон').setScale(0.2);
         platforms = this.physics.add.staticGroup();
     }
 
@@ -19,8 +19,8 @@ class MainLvl extends Phaser.Scene
 const config = {
     type: Phaser.AUTO,
     parent: 'phaser-MainLvl',
-    width: 1200,
-    height: 700,
+    width: 1000,
+    height: 600,
     scene: MainLvl
 };
 
